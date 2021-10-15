@@ -1,0 +1,53 @@
+Gokarna - Tranquility at its best
+Dandeli - Get set for Adventure
+Nandi Hills - Reach the Zenith of Beauty
+Jog Falls - Will leave you Spellbound !
+Shivanasamudra Falls - Nature's Fury and Peace
+Udupi - Taste of Authentic Karnataka
+belur and halebidu - The Majest temple towns
+Chitradurga Fort - A Fortified Marvel
+Bijapur - Bask of Royality
+Bandipur National Park - In Harmony with Nature
+Coorg - Queer but Captivating
+Chikmagalur - Never ending Fun
+
+
+
+ABOUT
+PACKAGES
+BOOK NOW
+LOGIN
+CONTACT US
+
+.img__shape {
+  margin-right: auto;
+  width: 30rem;
+  height: 30rem;
+  float: left;
+  display: flex;
+  
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%; }
+  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+    .story__shape {
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      shape-outside: circle(50% at 50% 50%);
+      border-radius: none; } }
+  @media only screen and (max-width: 37.5em) {
+     }
+.story__img {
+  height: 100%;
+  transition: all .3s; }
+
+
+<script>
+      function myfunc(){
+        alert("clicked");
+        var x = document.getElementsByClassName("navigation__checkbox").checked = true;
+        var y = document.getElementById("navi-toggle");
+        console.log(x);
+      }
+    </script>
