@@ -24,26 +24,35 @@
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__item" >
-            <a href="#" class="navigation__link">About</a>
+          <li class="navigation__item" onclick="myfunc()">
+            <a href="index.html" class="navigation__link">About</a>
           </li>
-          <li class="navigation__item" >
+          <li class="navigation__item" onclick="myfunc()">
             <a href="all_tours.html" class="navigation__link">Packages</a>
           </li>
-          <li class="navigation__item" >
+          <li class="navigation__item" onclick="myfunc()">
             <a href="#bookerPlace" class="navigation__link">Book now</a>
           </li>
-          <li class="navigation__item" >
+          <li class="navigation__item" onclick="myfunc()">
             <a href="admin.php" class="navigation__link">Login</a>
           </li>
-          <li class="navigation__item" >
+          <li class="navigation__item" onclick="myfunc()">
             <a href="#bottomPlace" class="navigation__link">Contact Us</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    
+    <script>
+      function myfunc(){
+        let links = document.querySelectorAll('.navigation__link');
+        links.forEach(link => { 
+          link.addEventListener("click", () => { 
+            document.querySelector('.navigation__checkbox').checked = false
+          })
+        });
+      }
+    </script>
 
 
     <header class="header">
