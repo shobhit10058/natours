@@ -52,5 +52,6 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
 		<label>Password  :</label><input type = "password" name = "password" /><br/><br />
 		<input type = "submit" value = " Submit "/><br />
 	</form>
+	<button><a href="index.html" tite="Home">Home</button> 
 </body>
 </html>
