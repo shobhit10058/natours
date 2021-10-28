@@ -22,6 +22,7 @@ session_start();
 		<input type="submit" value="Upload Image" name="submit">
 	</form>
 	<button><a href="index.html" tite="Client Page">Visit Client Page</button> 
+	<br><br>
 	<button><a href="logout.php" tite="Logout">Logout</button> 
 <?php
 }else echo "<h2>Please login first .</h2>";
